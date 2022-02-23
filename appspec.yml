@@ -14,7 +14,7 @@ type:
 - file
 hooks:
 BeforeInstall:
-- location: codedeploy/before_install.sh
+- location: scripts/install_dependencies
 timeout: 180
 AfterInstall:
 - location: codedeploy/after_install.sh
